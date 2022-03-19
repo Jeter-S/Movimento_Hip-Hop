@@ -1,0 +1,81 @@
+/*estilos index.html*/
+body{
+    background: linear-gradient(to bottom, #fd3c3c, #3a1af1);
+}
+
+.center {
+    text-align: center;
+}
+
+.conteudo{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+ .degrade{
+    background-image: linear-gradient(to bottom, rgb(121, 33, 253), rgb(82, 195, 240), rgb(251, 255, 255));
+    background-clip: text;
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent; 
+    color: black;
+} 
+
+#menu li{    
+    display: inline;
+    padding: 30px;
+}
+
+#menu li a {
+    text-decoration: none;
+    font-size: large;
+
+}
+
+.pd-30{
+    font-size: 18px;
+    padding: 35px;
+}
+
+.tamanho {
+    width: 30px;
+    height: 30px;
+}
+
+.margem-50 {
+   margin-bottom: 40px;
+}
+
+.justify {
+    text-align: justify;
+}
+
+#titulo{
+    text-align: center;
+    color: black;
+    font-size: 70px;
+}
+
+/*estilos comunidade.html*/
+
+#link li{
+    display: inline;
+    padding: 20px;
+}
+
+#link a{
+    text-decoration: none;
+}
+
+.margemLateral {
+    margin-left: 90px;
+}
+
+#linkComunidade li a{
+    text-decoration: none;
+}
+
+.margemUp {
+    margin-top: 90px;
+}
