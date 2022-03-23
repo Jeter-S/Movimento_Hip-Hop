@@ -66,6 +66,7 @@ body{
 
 #link a{
     text-decoration: none;
+    color:black;
 }
 
 .margemLateral {
@@ -74,8 +75,29 @@ body{
 
 #linkComunidade li a{
     text-decoration: none;
+    color:blue ;
 }
 
 .margemUp {
     margin-top: 90px;
+}
+.margin-alert {
+    margin-left: 46px;
+}
+
+#txtNome {
+    font-size: larger;
+}
+
+#txtEmail{
+    font-size: larger;
+}
+
+#txtAssunto{
+    font-size: larger;
+}
+
+#enviar{
+    margin-left: 55px;
+    font-size: 15px;
 }
